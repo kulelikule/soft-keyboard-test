@@ -22,13 +22,13 @@ class App extends React.Component {
 
   handleFocus() {
     this.setState({
-      hideButton: true,
+      // hideButton: true,
     });
   }
 
   handleBlur() {
     this.setState({
-      hideButton: false,
+      // hideButton: false,
     });
   }
 
