@@ -39,6 +39,9 @@ class App extends React.Component {
       <div className="App">
         <div className="content">
           { content }
+          <div>这是底部内容</div>
+          <div>这是底部内容</div>
+          <div>这是底部内容</div>
         </div>
         {
           hideButton ? null : (

@@ -18,7 +18,8 @@
 
 .button {
   flex: 1;
-  height: 48px;
+  height: calc(48px + constant(safe-area-inset-bottom));
+  height: calc(48px + env(safe-area-inset-bottom));
   line-height: 48px;
   border-top: 1px solid #eee;
 }
